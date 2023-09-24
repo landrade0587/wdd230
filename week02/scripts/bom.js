@@ -3,6 +3,7 @@ const button  = document.querySelector('button');
 const list = document.querySelector('#list');
 
 button.addEventListener('click', ()=>{
+    
     if(input.value != ''){
         const li = document.createElement('li');
         const delButton = document.createElement('button');
@@ -23,5 +24,5 @@ button.addEventListener('click', ()=>{
         setTimeout(()=>{
             document.querySelector('body').removeChild(message);
         }, 3000);
-    } 
+    }
 });
