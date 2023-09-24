@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce Barranquilla Colombia</title>
+    <meta name="description" content="Chamber Commerce for WDD230 Project aiming to the city of Barranquilla Colombia">
+    <link rel="icon" href="favicon.ico">
+    <meta name="author" content="Luis Andrade">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <meta property="og:title" content="Baranquilla Chamber Commerce Home Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.tekportal.net/wp-content/uploads/2019/01/barinas-4648.jpg">
+    <meta property="og:url" content="https://landrade0587.github.io/wdd230/chamber/index.html">
+</head>
+<body>
+    <header>
+        <div class="headerSection">
+            <div id="socialsLogo">
+                <div id="logoSection">
+                    <img id="logo" src="images/chamber-logo.jpeg" alt="logo Chamber Commerce">
+                    <h4>Barranquilla/Barranquilla <br>Chamber Commerce</h4>
+                </div>
+                <div id="mediaIcon">
+                    <a href="https://facebook.com">
+                        <img class="logoMedia" src="images/facebook-logo.png" alt="facebook page">
+                    </a>
+                    <a href="https://instagram.com">
+                        <img class="logoMedia" src="images/instagram-logo.png" alt="instagram page">
+                    </a>       
+                </div>
+                <button id="displayMenu"></button> 
+            </div>
+
+            <nav>
+                <ul class="menu">
+                    <li><a href="https://landrade0587.github.io/wdd230/chamber/index.html">Home</a></li>
+                    <li><a href="https://landrade0587.github.io/wdd230/chamber/discover.html">Discover</a></li>
+                    <li><a href="https://landrade0587.github.io/wdd230/chamber/directory.html">Directory</a></li>
+                    <li><a href="https://landrade0587.github.io/wdd230/chamber/join.html">Join</a></li>
+                </ul>
+            </nav> 
+        </div>
+    </header>
+
+    <div id="hero">
+        <button id="enjoyUs" onclick="window.location.href='https://landrade0587.github.io/wdd230/chamber/join.html';">Join the Chamber</button>
+        <picture id="heroImage">
+            <source srcset="images/barranquilla.png" media="(max-width: 500px)">
+            <img src="images/barranquilla.png" alt="barranquilla hero image" loading="lazy" width="1600" height="600">
+        </picture>
+    </div>
+    <main>
+        <div class="banner">
+            <div class="banner-content">
+                <p class="banner-text"><strong>Remainder</strong> We will have our weekly meet and greet on Wednesday 7:00 PM, come and participate you're welcome to join us</p>
+                <button class="banner-button">
+                    <span class="material-icons">close</span>
+                </button>
+            </div>
+        </div>
+        <div id="eventsWeatherSection">
+            <section id="events">
+                <h3>Events</h3>
+                <h4>Barranquijazz Festival - Concert</h4>
+                <p>Enjoy the best Jazz. 2 days with different guest artists. Jumbo Country Club Room.</p>
+            </section>
+    
+            <div id="weather">
+                <div id="today-weather">
+                    <h5>Today Weather</h5>
+                    <figure>
+                        <img id="weather-icon-today" src="#" alt="empty">
+                        <div id="current-temp"></div>
+                        <figcaption id="todayCaption"></figcaption>
+                    </figure>
+                </div>
+
+                <div id="forecast-weather">
+                    <h5>Forecast Weather</h5>
+                    <figure>
+                        <img id="weather-icon-forecast" src="#" alt="empty">
+                        <div id="forecast-temp"></div>
+                        <figcaption id="forecastCaption"></figcaption>
+                    </figure>
+                </div>
+            </div>
+
+        </div>
+            
+            <div id="spotlights">
+                <p id="defaultP">Click one of our members's company and discover more about them</p>
+                <h4 class="spotlightTitles"> </h4>
+
+                <h4 class="spotlightTitles"> </h4>
+
+                <h4 class="spotlightTitles"> </h4>
+                <div id="spotlightOne"></div>
+                <div id="spotlightTwo"></div>
+                <div id="spotlightThree"></div>
+            </div>
+    </main>
+    <footer>
+        <div id="footSection">
+            <div id="location">
+                <img id="logoFooter" src="images/chamber-logo.jpeg" alt="">
+                <div>
+                    <h3>Barranquilla</h3>
+                    <h3>Chamber Commerce</h3>
+                    <h4>Street 98 #51b-133</h4>
+                    <h4>Street 84 #53-122</h4>
+                </div>
+            </div>
+            <div id="contact">
+                <h4>info@barranquilla.org</h4>
+                <h4>+57 301-3576939</h4>
+            </div>
+            <p>&copy;<span id="year"></span> | &#x1F31F; Luis Alberto Andrade Obeso  &#x1F31F; | WDD230 Project | <span id="lastModified"></span></p>
+        </div>
+   
+    </footer>
+    <script src="scripts/chamber.js"></script>
+</body>
+</html>

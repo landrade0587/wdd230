@@ -30,6 +30,20 @@
         {
             "week": "Week 2",
             "links": [
+                {
+                    "url": "week02/design.html",
+                    "title": "Design Principles"
+                },
+
+                {
+                    "url": "https://codepen.io/Luis-Andrade-the-flexboxer/pen/bGOLOZo",
+                    "title": "Responsive Navigation"
+                },
+
+                {
+                    "url": "week02/bom.html",
+                    "title": "DOM Manipulation"
+                }
               
             ]
         },

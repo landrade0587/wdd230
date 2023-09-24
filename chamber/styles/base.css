@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header, main, footer, .menu, #hero{
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+main{
+    font-family: 'Merriweather', serif;
+}
+
+#logoSection{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-left: 0.3rem;
+}
+
+.menu a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    background-color: #0D6098;
+}
+
+.menu{
+    align-items: center;
+	justify-content: center;
+}
+
+.menu li{
+    display: none;
+}
+
+h4{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#displayMenu{
+    padding: 0.25rem;
+    margin-right: 0.3rem;
+}
+
+#displayMenu::before{
+    content: "☰";
+}
+
+#displayMenu.open::before{
+    content: "✖";
+}
+
+.open li {
+	display: block;
+	width: 100%;
+}
+.open li a {
+	display: block;
+}
+
+#logo{
+    width: 5rem;
+    height: 5rem;
+}
+
+.logoMedia{
+    width: 1.5rem;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.headerSection{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+header{
+    background-color: #072E74;
+    color: #f3ef04;
+    font-family: 'Merriweather', serif;
+
+}
+
+#socialsLogo{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+#mediaIcon{
+    margin: 1rem;
+}
+
+#hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+}
+
+#heroImage{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    display: block;
+}
+
+#heroImage img{
+    width: 100%;
+    height: auto;
+
+}
+
+#enjoyUs{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    z-index: 1;
+    width: 10rem;
+    height: 3rem;
+    font-size: 1rem;
+    margin: 4.5rem auto;
+    border-radius: 5px;
+    background-color: #3f4652;
+    color: white;
+    cursor: pointer;
+}
+
+#events{
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: #d9dbe0;
+    color: black;
+
+}
+
+#events h3{
+    border-bottom: 1px solid rgb(163, 163, 163);
+    font-size: 1.5rem;
+}
+
+#events h4{
+    text-align: left;
+    padding-top: 0.5rem;
+    font-size: 1rem;
+}
+
+#events p{
+    padding: 0.5rem;
+    border-bottom: 1px solid rgb(163, 163, 163);
+    font-size: 1rem;
+    font-family: 'Merriweather Sans', serif;
+}
+
+#weather{
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: #d9dbe0;
+    color: black;
+}
+
+#weather h3{
+    border-bottom: 1px solid rgb(163, 163, 163);
+    font-size: 1.5rem;
+}
+
+#weather h4{
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+#spotlights{
+    display: grid;
+    background-color: #d9dbe0;
+    padding: 0.5rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    width: 95%;
+}
+
+.spotlightTitles{
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.3rem;
+    width: 50%;
+    margin: 3% auto;
+    background-color: #00154b;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.spotlightP{
+    background-color: #3f4652;
+    color: white;
+    font-size: 0.8rem;
+    border-radius: 10px;
+}
+
+.spotlightP a{
+    display: flex;
+    justify-content: center;
+    margin: 0.4rem auto;
+    color: white;
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #072E74;
+    color: white;
+    height: 20%;
+}
+
+#logoFooter{
+    width: 8rem;
+    height: 8rem;
+}
+
+#location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#location h4{
+    text-align: left;
+}
+
+#contact{
+    margin: 0.5rem auto;
+}
+
+footer p{
+    text-align: center;
+    margin: 1rem auto;
+    padding-bottom: 1rem;
+    color: #f3ef04;
+    font-size: 0.9rem;
+}
+
+#defaultP{
+    display: none;
+}
