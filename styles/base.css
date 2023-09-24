@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Sans 3', serif;
+}
+
+header, main, footer, .menu{
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    background-color: #072E74;
+    align-items: center;
+	justify-content: center;
+    margin-top: 0.5rem;
+}
+
+#I{
+    width: 15%;
+    margin: 1rem;
+    height: auto;
+    box-shadow: 0px 4px 20px 7px rgba(0, 0, 0, 0.2), 0 6px 20px 7px rgba(0, 0, 0, 0.19);
+}
+
+h1{
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    font-size: 1em;
+}
+
+.menu{
+    background-color: #460101;
+}
+
+
+h2{
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+.menu a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0.5rem;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    text-decoration: none;
+}
+
+
+.menu a:hover{
+    background-color: #F3A001;
+}
+
+.menu li{
+    display: none;
+}
+
+.card{
+    margin: 1rem auto;
+    border: 1px solid black;
+    border-radius: 2%;
+    width: 98%;
+    box-shadow: 0px 4px 20px 7px rgba(0, 0, 0, 0.2), 0 6px 20px 7px rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+}
+
+footer{
+    background-color: #072E74;
+    padding: 1.2rem;
+    display: block;
+    text-align: center;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    margin-bottom: 0.5rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.card ul{
+    padding: 2rem;
+}
+
+.card div{
+    text-align: center;
+    padding: 1%;
+}
+
+.card h3{
+    text-align: center;
+    padding: 1rem;
+    background-color: #460101;
+    color: white;
+}
+
+.card li{
+    padding: 0.5%;
+}
+
+#lastModified{
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+
+#displayMenu{
+    position: absolute;
+    top: 2.5rem;
+    left: 1rem;
+    padding: 0.25rem;
+}
+
+#displayMenu::before{
+    content: "☰";
+}
+
+.open li {
+	display: block;
+	width: 100%;
+}
+.open li a {
+	display: block;
+}
+
+main{
+    padding-bottom: 3.3%;
+}
+
+#mode{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: rgb(163, 154, 154);
+}
+
+#displayMenu.open::before{
+    content: "✖";
+}
+
+.hero img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: 0px 4px 20px 7px rgba(0, 0, 0, 0.2), 0 6px 20px 7px rgba(0, 0, 0, 0.19);
+}
+
+.templeLabel{
+    position: absolute;
+    top: 8rem;
+    left: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: rgba(88, 112, 168, 0.5);
+    border: 1px solid rgb(88, 87, 87, 0.8);
+    box-shadow: 10px 15px 48px 0px rgba(4,46,140,0.75);
+    -webkit-box-shadow: 10px 15px 48px 0px rgba(4,46,140,0.75);
+    -moz-box-shadow: 10px 15px 48px 0px rgba(4,46,140,0.75);
+    font-family: 'Pacifico', cursive;
+    
+}
+
+iframe{
+    display: block;
+    width: 90%;
+    height: 25rem;
+    margin: 0 auto;
+
+}
+
+#items {
+    font-weight: bolder;
+}
+
+#items figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#items figure, #items p{
+    padding-bottom: 1.5rem;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Luis Andrade - wdd230 - Web Frontend Development</title>
+    <meta name="description" content="Course assignment portal for wdd230 - Web Frontend Development by Luis Andrade">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Source+Sans+3&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <meta name="author" content="Luis Andrade">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <meta property="og:title" content="BYU wdd230 Luis Andrade Home Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://th.bing.com/th/id/R.914a0d5f6b5cdc6d5607d894d4457736?rik=adlVPXCtbx%2fxkw&pid=ImgRaw&r=0">
+    <meta property="og:url" content="https://landrade0587.github.io/wdd230/index.html">
+</head>
+
+<body>
+
+    <header>
+        <img id="I" src="images/Me.jpg" alt="photo of myself">
+        <h1>Luis A. Andrade</h1>
+        <div id="mode">
+            ✅
+        </div>
+    </header>
+
+    <nav>
+        <button id="displayMenu"></button>
+        <ul class="menu">
+            <li><a href="https://landrade0587.github.io/wdd230/week01/index.html">Home</a></li>
+            <li><a href="">Chamber</a></li>
+            <li><a href="">Site Plan</a></li>
+            <li><a href="">Form</a></li>                 
+        </ul>    
+    </nav>
+
+    <main>
+
+        <div class="templeLabel">Barranquilla Colombia <br>Temple</div>
+        
+        <div class="hero">
+            <picture>
+                <source srcset="images/Temple.jpg" media="(max-width: 50px)">
+                <img src="images/Temple.jpg" alt="hero larger imgage" width="960" height="600">
+            </picture>
+        </div>
+
+        <h2>wdd230: Web Frontend Development</h2>
+
+        <section class="card" id="activities">
+            
+            <h3>Learning Activities</h3>
+            
+            <ul id="links"></ul>
+
+        </section>
+
+        <section class="card" id="information">
+            
+            <h3>Information</h3>
+            
+            <div id="items">
+                <figure>
+                    <img id="weather-icon" src="empty" alt="empty">
+                    <div id="current-temp"></div>
+                    <figcaption></figcaption>
+                </figure>
+                <p>Visit Count: <span class="visits"></span></p>
+            </div>
+
+        </section>
+
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="http://jigsaw.w3.org/css-validator/images/vcss"
+                    alt="¡CSS Válido!" />
+            </a>
+        </p>
+     
+        
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                    alt="¡CSS Válido!" />
+                </a>
+            </p>
+                 
+        
+    </main>
+
+    <footer>
+        <p>&copy;<span id="year"></span> &#x1F31F; Luis Alberto Andrade Obeso &#x1F31F; Colombia</p>
+        <p id="lastModified">Last Modification: </p>
+    </footer>
+
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/links.js"></script>
+
+</body>
+</html>

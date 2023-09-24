@@ -1,0 +1,22 @@
+@media screen and (min-width: 650px){
+    header, main, footer{
+        max-width: 1200px;
+    }
+
+    #palette{
+        width: 98%;
+    }
+
+    #normal-paragraph{
+        width: 98%;
+    }
+
+    #colored-paragraph{
+        width: 98%;
+    }
+
+    .wireframes{
+        width: 80%;
+    }
+
+}

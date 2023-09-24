@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans&display=swap');
+
+*{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header, main, footer{
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+#heading{
+    text-align: center;
+    margin-top: 2rem;
+    background-color: #072E74;
+    color: white;
+    padding: 2rem
+}
+
+h1{
+    padding: 0.5rem;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+h2{
+    padding: 0.5rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #6898F0;
+}
+
+#heading h2{
+    color: white;
+}
+
+header{
+    padding: 1rem;
+}
+
+h3{
+    padding: 1rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #6898F0;
+}
+
+h4{
+    padding: 1.5rem;
+    color: #6898F0;
+}
+
+ul{
+    padding: 0.5rem;
+    list-style-type: none;
+}
+
+li{
+    padding: 1rem;
+}
+
+#overview{
+    border-top: 4px solid #0D6098;
+    border-bottom: 4px solid #0D6098;
+    padding-bottom: 1rem;
+}
+
+.colors{
+    width: 100%;
+    height: 2.5rem;
+    margin: 0 auto;
+    padding: 0.65rem;
+    text-align: center;
+}
+
+.colors-heading{
+    background-color: gray;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+#scenarios{
+    border-bottom: 4px solid #0D6098;
+}
+
+#colors-fonts-section{
+    border-bottom: 4px solid #0D6098;
+}
+
+#palette{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#primary{
+    background-color: #072E74;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    color: white;
+}
+
+#secondary{
+    background-color: #6898F0;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: white;
+}
+
+#accent{
+    background-color: #0D6098;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    color: white;
+}
+
+#heading-primary{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#heading-secondary{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#heading-accent{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+#normal-paragraph{
+    padding: 1rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#colored-paragraph{
+    padding: 1rem;
+    background-color: #072E74;
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.wireframes{
+    width: 60%;
+    margin-bottom: 2rem;
+}
