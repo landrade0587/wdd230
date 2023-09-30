@@ -50,7 +50,25 @@
 
         {
             "week": "Week 3",
-            "links": [
+            "links": [  {
+                "url": "week03/images/landscape.webp",
+                "title": "WebP"
+            },
+
+            {
+                "url": "week03/lazyload.html",
+                "title": "LazyLoad"
+            },
+
+            {
+                "url": "week03/responsive-images.html",
+                "title": "Responsive Images"
+            },
+
+            {
+                "url": "week03/bom.html",
+                "title": "Bom LocalStorage"
+            }
              
             ]
         },
