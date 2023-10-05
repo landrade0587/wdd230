@@ -76,6 +76,25 @@
         {
             "week": "Week 4",
             "links": [
+                {
+                    "url": "https://codepen.io/Luis-Andrade-the-flexboxer/pen/qBLQrQa",
+                    "title": "Pseudo-classes"
+                },
+
+                {
+                    "url": "week04/images/week4-combinators.JPG",
+                    "title": "Combinators"
+                },
+
+                {
+                    "url": "week04/tablebuild.html",
+                    "title": "Table"
+                },
+
+                {
+                    "url": "week04/form-start/index.html",
+                    "title": "Form"
+                }
          
             ]
         },
