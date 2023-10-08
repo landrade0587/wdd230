@@ -440,3 +440,95 @@ footer p{
     text-align: center;
     
 }
+
+/***************FORM*****************/
+
+form{
+    width: 100%;
+    max-width: 20rem;
+    margin: 2rem auto;
+}
+
+form label.top, form div{
+    display: block;
+    padding-top: 0.6rem;
+    color: #072E74;
+    font-size: .8rem;
+    margin-left: 0.5rem;
+}
+
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    max-width: 20rem;
+    width: 100%;
+}
+
+form label.checkbox{
+    display: block;
+    margin: 1rem auto;
+    margin-left: 0.5rem;
+    padding: .75rem;
+    color: #072e74;
+}
+
+form fieldset{
+    border: 2px solid #072E74;
+    margin: 1rem auto;
+    border-radius: 10px;
+    background: #d9dbe0;
+}
+
+.submitBtn{
+    border: none;
+    padding: 0.75rem 1rem;
+    border-radius: 10px;
+    color: white;
+    background: #072E74;
+    width: 100%;
+    max-width: 20rem;
+    margin: 2rem auto;
+}
+
+form legend{
+    margin: 0 1rem;
+    margin-bottom: 0.5rem;
+    padding: 0 0.8rem;
+    color: #072E74;
+    font-weight: bolder;
+}
+
+#infoMemberShip{
+    display: none;
+}
+
+form label.top input:required{
+    border-left: #f3ef04 solid 6px;
+}
+
+form label.top input:required:valid{
+    border-left: #072E74 solid 6px;
+}
+
+/***************ThankYouMessagePage******************/
+#thanksMess{
+    margin: 4rem auto;
+    text-align: center;
+}
+
+#thanksMess h1{
+    width: 100%;
+    color:#072E74;
+    margin: 2rem auto;
+    font-size: 2rem;
+}
+
+#thanksMess p{
+    margin: 1rem 1rem 5rem 1rem;
+}
+
