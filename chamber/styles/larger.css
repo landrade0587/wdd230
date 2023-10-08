@@ -263,3 +263,14 @@ form label.checkbox{
     font-size: 1.3rem;
     margin-bottom: 15%;
 }
+
+
+ /****************Banner*****************/
+
+ .banner-content{
+    font-size: 1.2rem;
+}
+
+.banner-button{
+    margin-left: 2rem;   
+}

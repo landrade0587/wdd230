@@ -532,3 +532,29 @@ form label.top input:required:valid{
     margin: 1rem 1rem 5rem 1rem;
 }
 
+
+
+/***********Banner*************/
+
+.banner{
+    background: #00154b;
+    display: none;
+}
+
+.banner-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    color: #fff;
+    padding: 2rem;
+    font-size: 1rem;
+}
+
+.banner-text{
+    text-align: center;
+}
+
+.banner-button{
+    margin-left: 1rem;
+    cursor: pointer;
+}
