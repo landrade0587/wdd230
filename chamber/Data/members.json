@@ -1,0 +1,149 @@
+{
+    "directory": [
+        {
+            "name": "Alimentos Santa Mónica c.a.",
+            "address": "Av. Cruz Paredes &, Av. Libertad",
+            "phone": "+584125657344",
+            "url": "https://santamonica.com/",
+            "image": "images/santa-monica.jpg",
+            "membership": "Bronze",
+            "join": "1 year",
+            "description": "Buy food for your store at great prices",
+            "email": "santamonica@monica.com"
+        },
+
+        {
+            "name": "El Castillo Tu Centro Textil",
+            "address": "Barinas 5201, Barinas",
+            "phone": "+582735325796",
+            "url": "https://elcastillo.com/",
+            "image": "images/castillo.jpg",
+            "membership": "Golden",
+            "join": "8 years",
+            "description": "Leaders of the textile field for years",
+            "email":  "castillo@contact.com"
+        },
+
+        {
+            "name": "C.C. Cima",
+            "address": "Centro Comercial Cima, Barinas Nivel 2",
+            "phone": "+582734006541",
+            "url": "https://cima.com/",
+            "image": "images/cima.jpg",
+            "membership": "Golden",
+            "join": "3 years",
+            "description": "If there's something you are looking for this is the place",
+            "email": "cima@cima.com"
+        },
+
+        {
+            "name": "Cinex",
+            "address": "C.C Cima",
+            "phone": "+584245737205",
+            "url": "https://cinex.com/",
+            "image": "images/cinex.jpg",
+            "membership": "Silver",
+            "join": "9 months",
+            "description": "You'r cinema for creating good memories",
+            "email": "cinex@cima.com"
+        },
+
+        {
+            "name": "C.C. El Dorado",
+            "address": "JP7X+Q3C, Barinas 5201, Barinas",
+            "phone": "+584146903708",
+            "url": "https://eldorado.com/",
+            "image": "images/eldorado.jpg",
+            "membership": "Golden",
+            "join": "4 years",
+            "description": "We have been in the market for years, with the best stores, enjoy it!",
+            "email": "eldorado@dorado.com"
+        },
+
+        {
+            "name": "IVOO",
+            "address": "JP8W+7XV, Av. San Silvestre",
+            "phone": "+584244051530",
+            "url": "https://ivoo.com/",
+            "image": "images/ivoo.jpg",
+            "membership": "NP",
+            "join": "3 months",
+            "description": "The best tech products out there you'll find them here",
+            "email": "ivoo@info.com"
+        },
+
+        {
+            "name": "King Pastel",
+            "address": "Barinas 5201, Barinas",
+            "phone": "+584265724251",
+            "url": "https://kingpastel.com/",
+            "image": "images/king-pastel.jpg",
+            "membership": "Bronze",
+            "join": "5 months",
+            "description": "You will test the best pastels of the country",
+            "email": "king@pastel.com"
+        },
+
+        {
+            "name": "Mango Bajito",
+            "address": "Esquina Av. Cruz Paredes c/c Av. 23 de Enero",
+            "phone": "+582739280836",
+            "url": "https://mangobajito.com/",
+            "image": "images/mango-bajito.jpg",
+            "membership": "Bronze",
+            "join": "2 years",
+            "description": "We have all you need for your parties, events, bakery, kitchen, etc.",
+            "email": "mangobajito@bajito.com"
+        },
+
+        {
+            "name": "McDonald's",
+            "address": "Av. Los Andes, Barinas 5201, Barinas",
+            "phone": "+582739282131",
+            "url": "https://www.mcdonalds.com/",
+            "image": "images/mcdonalds.jpg",
+            "membership": "Golden",
+            "join": "5 years",
+            "description": "Come and enjoy with your family, have a great time",
+            "email": "mcdonals@donalds.com"
+        },
+
+        {
+            "name": "Multimax",
+            "address": "Barinas 5201, Barinas",
+            "phone": "+584164002891",
+            "url": "https://multimax.com/",
+            "image": "images/multimax.jpg",
+            "membership": "Silver",
+            "join": "8 months",
+            "description": "Wide variety of home appliances",
+            "email": "multimax@max.com"
+        },
+
+        {
+            "name": "Smartfix",
+            "address": "C. Camejo, Barinas 5201, Barinas",
+            "phone": "+584145125436",
+            "url": "https://smartfix.com/",
+            "image": "images/smartfix.jpg",
+            "membership": "Silver",
+            "join": "10 months",
+            "description": "Cutting edge technology, great products, high tech",
+            "email": "smartfix@fix.com"
+        },
+
+        {
+            "name": "Traki c.a.",
+            "address": "Avenida, Barinas 5201, Barinas",
+            "phone": "+582735417092",
+            "url": "https://traki.com/",
+            "image": "images/traki.jpg",
+            "membership": "Golden",
+            "join": "8 years",
+            "description": "Clothing for all the ages at a right price",
+            "email": "traki@traki.com"
+        }
+
+
+    ]
+}

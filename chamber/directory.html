@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chamber Commerce Barranquilla Colombia</title>
-    <meta name="description" content="Chamber Commerce for WDD230 Project Gaiming to the city of Barranquilla Colombia">
+    <title>Directory of Chamber Commerce Barranquilla Colombia</title>
+    <meta name="description" content=" Member's directory of Chamber Commerce Barranquilla Colombia WDD230">
     <link rel="icon" href="favicon.ico">
     <meta name="author" content="Luis Andrade">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,14 +25,14 @@
             <div id="socialsLogo">
                 <div id="logoSection">
                     <img id="logo" src="images/chamber-logo.jpeg" alt="logo Chamber Commerce">
-                    <h4>Baranquilla/Barranquilla <br>Chamber Commerce</h4>
+                    <h4>Barranquilla/Barranquilla <br>Chamber Commerce</h4>
                 </div>
                 <div id="mediaIcon">
                     <a href="https://facebook.com">
-                        <img class="logoMedia" src="images/facebook-logo.png" alt="facebook page">
+                        <img class="logoMedia" src="images/facebook-logo.png" alt="facebook page" width="64" height="64">
                     </a>
                     <a href="https://instagram.com">
-                        <img class="logoMedia" src="images/instagram-logo.png" alt="instagram page">
+                        <img class="logoMedia" src="images/instagram-logo.png" alt="instagram page" width="64" height="64">
                     </a>       
                 </div>
                 <button id="displayMenu"></button> 
@@ -50,14 +49,21 @@
         </div>
     </header>
 
- 
     <main>
-
-        <div id="thanksMess">
-            <h1>Thank you for joining us!.</h1>
-            <p>Welcome to our great community, we are grateful you join us, you will have an experience that you won't regret, we will communicate with you as soon as possible, enjoy our service, and enjoy being part of the biggest community in Barranquilla City</p>
+        <div id="menuDirectory">
+            <h2>Business Directory</h2>
+            <div>
+                <button id="grid">⏹️</button>
+                <button id="list">📄</button>
+            </div>
         </div>
-        
+
+
+        <article class="grid">
+
+        </article>
+
+
     </main>
     <footer>
         <div id="footSection">
@@ -72,12 +78,12 @@
             </div>
             <div id="contact">
                 <h4>info@barranquilla.org</h4>
-                <h4>+57 3013576939</h4>
+                <h4>+57 301-3576939</h4>
             </div>
             <p>&copy;<span id="year"></span> | &#x1F31F;Luis Alberto Andrade Obeso&#x1F31F; | WDD230 Project | <span id="lastModified"></span></p>
         </div>
    
     </footer>
-    <script src="scripts/chamber.js"></script>
+    <script src="scripts/directory.js"></script>
 </body>
 </html>
