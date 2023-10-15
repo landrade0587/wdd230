@@ -264,6 +264,38 @@ form label.checkbox{
     margin-bottom: 15%;
 }
 
+/******************DirectoryPage**********************/
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    margin-bottom: 1rem;
+}
+
+
+.list section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr 1fr 1fr 1fr ;
+    padding: 3rem;
+    font-size: 1.2rem;
+    justify-content: center;
+    
+}
+
+.list section:nth-child(even) {
+    background-color: #c5c8ce;
+
+}
+
+
+.list section:nth-child(odd) p{
+    color: #fff;
+}
+
+.list section a{
+    padding-right: 1rem;
+    padding-left: 3rem;
+}
 
  /****************Banner*****************/
 

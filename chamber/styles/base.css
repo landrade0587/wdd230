@@ -532,6 +532,132 @@ form label.top input:required:valid{
     margin: 1rem 1rem 5rem 1rem;
 }
 
+/******************DirectoryPage**********************/
+
+#menuDirectory{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#menuDirectory button{
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.grid section{
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #072e74;
+    padding: 1rem;
+    background: #d9dbe0;
+    border-radius: 10px;
+}
+
+.grid section a{
+    color: #0025b8;
+}
+
+.grid section img{
+    width: 50%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.grid section h4{
+    padding: 0.7rem;
+    color: #072E74;
+}
+
+.grid section p{
+    font-family: 'Merriweather Sans', serif;
+    margin: 0.5rem;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+}
+
+.list img{
+    display: none;
+}
+
+.list section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.list section h4{
+    text-align: start;
+}
+
+.list section p{
+    margin: 0.2rem;
+    text-align: start;
+}
+
+.list section:nth-child(odd) {
+    background-color: #072E74;
+    color: #fff;
+}
+
+.list section:nth-child(even) {
+	background-color: #c5c8ce;
+}
+
+.list section:nth-child(odd) a{
+    color: #f3ef04;
+}
+
+.list section:nth-child(even) a{
+    color: #00154b;
+}
+
+/*************WeatherGadget***************/
+
+#today-weather{
+    padding-top: 1rem;
+}
+
+#today-weather figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#today-weather #weather-icon-today, #today-weather #current-temp, #today-weather #todayCaption{
+    padding: 0.25rem;
+}
+
+#today-weather h5{
+    text-align: center;
+}
+
+#forecast-weather figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#forecast-weather #weather-icon-forecast, #forecast-weather #forecast-temp, #forecast-weather #forecastCaption{
+    padding: 0.25rem;
+}
+
+#forecast-weather h5{
+    text-align: center;
+}
 
 
 /***********Banner*************/
