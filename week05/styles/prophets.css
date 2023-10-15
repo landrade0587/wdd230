@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Source+Sans+3&display=swap');
+
+header, footer{
+    text-align: center;
+}
+
+#cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 30px #777;
+    font-family: 'Source Sans 3', sans-serif;;
+}
+
+h1, h2{
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(35, 35, 129);
+}
+
+h1{
+    padding: 1rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgb(159, 159, 197);
+    border: 1px solid rgb(35, 35, 129);
+}
+
+section p{
+    line-height: 1.5rem;
+}
+
+footer{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2rem;
+    color: rgb(35, 35, 129);
+    margin: 1rem;
+    padding: 1rem;
+}
+
+img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.575), 0 8px 20px 0 rgba(0, 0, 0, 0.664);
+}

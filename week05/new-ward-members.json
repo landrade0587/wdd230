@@ -1,0 +1,33 @@
+{
+    "familyName": "Andrade",
+    "dateJoin": "Oct 14 2023",
+    "numbMembers": 4,
+    "visitedBishopric": false,
+    "members": [
+        {
+            "name": "Luis Alberto Andrade Obeso",
+            "gender": "male",
+            "birthDate": "05/07/1987"
+        },
+
+        {
+            "name": "Vanessa Mancilla Morales",
+            "gender": "female",
+            "birthDate": "27/04/1995"
+        },
+
+        {
+            "name": "Alejando Andrade Mancilla",
+            "gender": "male",
+            "birthDate": "27/04/2019"
+        },
+
+        {
+            "name": "Allison Nauvoo Andrade Mancilla",
+            "gender": "female",
+            "birthDate": "08/08/1986"
+        }
+
+      
+    ]
+}
