@@ -1,0 +1,115 @@
+:root{
+    --margin-value: 2rem;
+    --max-width: 20rem;
+    --padding: 0.75rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+main h1{
+    font-size: 2rem;
+    color: black;
+}
+
+form{
+    width: 60%;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 0 auto;
+    margin-top: var(--margin-value);
+    
+}
+
+#r {
+    width: 100%;
+    max-width: var(--max-width);
+	margin-bottom: 0;
+    padding: var(--padding);
+}
+#rangevalues {
+	display: flex;
+    margin-left: 0.8rem;
+
+}
+
+#rangevalues option {
+	flex: 1 1 auto;
+}
+
+form label.top{
+    display: block;
+    margin-bottom: var(--margin-value);
+}
+
+form label.top input{
+    display: block;
+    padding: var(--padding);
+    width: 100%;
+    max-width: var(--max-width);
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+
+form label.top input:required{
+    border-left: #9c2c13 solid 6px;
+}
+
+form label.top input:required:valid{
+    border-left: #072E74 solid 6px;
+}
+
+#legend{
+    margin-bottom: var(--margin-value);
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+form label.top #r{
+    padding: var(--padding);
+    margin-bottom: -2rem;
+    width: 100%;
+    max-width: var(--max-width);
+}
+
+#submitBtn{
+    margin-top: var(--margin-value);
+    padding: var(--padding) 1.5rem;
+    width: 100%;
+    max-width: var(--max-width);
+    border: none;
+    border-radius: 10px;
+    background: #072E74;
+    color: white;
+}
+
+#formMessage{
+    display: none;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+#rangevalue{
+    margin-top: 0.3rem;
+    font-size: 1.4rem;
+}
+
+#recordMessage h1{
+    color: white;
+    margin: 0 auto;
+    margin-top: 5rem;
+    background: #072E74;
+    width: 80%;
+    border-radius: 10px;
+}
+
+#recordMessage p{
+    margin: 0 auto;
+    font-size: 2rem;
+    margin-bottom: 12rem;
+    margin-top: var(--margin-value);
+    text-align: center;
+}
