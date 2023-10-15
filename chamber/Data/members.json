@@ -1,47 +1,47 @@
 {
     "directory": [
         {
-            "name": "Alimentos Santa Mónica c.a.",
-            "address": "Av. Cruz Paredes &, Av. Libertad",
-            "phone": "+584125657344",
-            "url": "https://santamonica.com/",
-            "image": "images/santa-monica.jpg",
+            "name": "Centro Comercial Buenavista.",
+            "address": "Street 98 #52-115",
+            "phone": "+57 3015534551",
+            "url": "https://ccbuenavista.com/",
+            "image": "images/ccbuenavista.jpg",
             "membership": "Bronze",
             "join": "1 year",
             "description": "Buy food for your store at great prices",
-            "email": "santamonica@monica.com"
+            "email": "ccbuenavista@contact.com"
         },
 
         {
-            "name": "El Castillo Tu Centro Textil",
-            "address": "Barinas 5201, Barinas",
-            "phone": "+582735325796",
-            "url": "https://elcastillo.com/",
-            "image": "images/castillo.jpg",
+            "name": "Arturo Calle",
+            "address": "Centro Comercial Buenavista, Buenavista I Piso 1 Local 120",
+            "phone": "+57 3153498341",
+            "url": "https://arturocalle.com/",
+            "image": "images/calle.jpg",
             "membership": "Golden",
             "join": "8 years",
             "description": "Leaders of the textile field for years",
-            "email":  "castillo@contact.com"
+            "email":  "arturocalle@contact.com"
         },
 
         {
-            "name": "C.C. Cima",
-            "address": "Centro Comercial Cima, Barinas Nivel 2",
-            "phone": "+582734006541",
-            "url": "https://cima.com/",
-            "image": "images/cima.jpg",
+            "name": "Baby Ganga",
+            "address": "Centro Comercial Buenavista III Piso 3 Local 320",
+            "phone": "+(57) (605) 3576928",
+            "url": "https://www.babyganga.com/",
+            "image": "images/baby.jpg",
             "membership": "Golden",
             "join": "3 years",
-            "description": "If there's something you are looking for this is the place",
-            "email": "cima@cima.com"
+            "description": "If there's something you are looking for childrens and babys this is the place",
+            "email": "babyganga@contact.com"
         },
 
         {
-            "name": "Cinex",
-            "address": "C.C Cima",
-            "phone": "+584245737205",
-            "url": "https://cinex.com/",
-            "image": "images/cinex.jpg",
+            "name": "Cine Colombia",
+            "address": "Centro Comercial Buenavista I Piso 3 Local 300",
+            "phone": "+57 3142991134",
+            "url": "https://cinecolombia.com/",
+            "image": "images/ccolombia.jpg",
             "membership": "Silver",
             "join": "9 months",
             "description": "You'r cinema for creating good memories",
@@ -49,99 +49,99 @@
         },
 
         {
-            "name": "C.C. El Dorado",
-            "address": "JP7X+Q3C, Barinas 5201, Barinas",
-            "phone": "+584146903708",
-            "url": "https://eldorado.com/",
-            "image": "images/eldorado.jpg",
+            "name": "Ecocueros",
+            "address": "Centro Comercial Buenavista I Piso 1 Local 119",
+            "phone": "+(57) (605) 3579264",
+            "url": "https://ecocueroscolombia.com/",
+            "image": "images/ecueros.jpg",
             "membership": "Golden",
             "join": "4 years",
-            "description": "We have been in the market for years, with the best stores, enjoy it!",
-            "email": "eldorado@dorado.com"
+            "description": "is a Colombian company dedicated to the production and marketing of shoes and handbags for women, always at the forefront of fashion.",
+            "email": "ventasonline@ecocueroscolombia.com"
         },
 
         {
-            "name": "IVOO",
-            "address": "JP8W+7XV, Av. San Silvestre",
-            "phone": "+584244051530",
-            "url": "https://ivoo.com/",
-            "image": "images/ivoo.jpg",
+            "name": "Buffalo Grill",
+            "address": "Centro Comercial Buenavista I Piso 2 Local 211",
+            "phone": "+(57) (605) 3854243",
+            "url": "https://.com/",
+            "image": "images/buffalo.jpg",
             "membership": "NP",
             "join": "3 months",
-            "description": "The best tech products out there you'll find them here",
-            "email": "ivoo@info.com"
+            "description": "Here you will find grilled foods with the best flavor in the city",
+            "email": "buffalogrill@contact.com"
         },
 
         {
-            "name": "King Pastel",
-            "address": "Barinas 5201, Barinas",
-            "phone": "+584265724251",
-            "url": "https://kingpastel.com/",
-            "image": "images/king-pastel.jpg",
+            "name": "Crepes & Waffles",
+            "address": "Centro Comercial Buenavista I Piso 3 Local 301",
+            "phone": "+(57) (605) 3605123",
+            "url": "https://crepesywaffles.com/",
+            "image": "images/crepes.jpg",
             "membership": "Bronze",
             "join": "5 months",
-            "description": "You will test the best pastels of the country",
-            "email": "king@pastel.com"
+            "description": "Naturally working, artisanally producing, healthily pleasing.",
+            "email": "crepesandwaffles@contact.com"
         },
 
         {
-            "name": "Mango Bajito",
-            "address": "Esquina Av. Cruz Paredes c/c Av. 23 de Enero",
-            "phone": "+582739280836",
-            "url": "https://mangobajito.com/",
-            "image": "images/mango-bajito.jpg",
+            "name": "Centro Comercial Viva",
+            "address": "Avenue 51B #87-50",
+            "phone": "+57 3136554233",
+            "url": "https://ccviva.com/",
+            "image": "images/cviva.jpg",
             "membership": "Bronze",
             "join": "2 years",
-            "description": "We have all you need for your parties, events, bakery, kitchen, etc.",
-            "email": "mangobajito@bajito.com"
+            "description": "Where you will find food, clothing, footwear and much more",
+            "email": "ccviva@contact.com"
         },
 
         {
-            "name": "McDonald's",
-            "address": "Av. Los Andes, Barinas 5201, Barinas",
-            "phone": "+582739282131",
-            "url": "https://www.mcdonalds.com/",
-            "image": "images/mcdonalds.jpg",
+            "name": "Baby Fresh",
+            "address": "Centro Comercial Viva Piso 1 Local 128",
+            "phone": "+(57) 01 8000 517 536",
+            "url": "https://www.babyfresh.co",
+            "image": "images/babyf.jpg",
             "membership": "Golden",
             "join": "5 years",
-            "description": "Come and enjoy with your family, have a great time",
-            "email": "mcdonals@donalds.com"
+            "description": "Where you will find clothing, footwear and much more for your baby and children's fashion",
+            "email": "servicioalcliente@babyfresh.com.co"
         },
 
         {
-            "name": "Multimax",
-            "address": "Barinas 5201, Barinas",
-            "phone": "+584164002891",
-            "url": "https://multimax.com/",
-            "image": "images/multimax.jpg",
+            "name": "Decathlon",
+            "address": "Centro Comercial Viva Piso 1 Local 101",
+            "phone": "+(57) (601) 9187891 ",
+            "url": "https://decathlon.com.co/",
+            "image": "images/decathlon.jpg",
             "membership": "Silver",
             "join": "8 months",
-            "description": "Wide variety of home appliances",
-            "email": "multimax@max.com"
+            "description": "Wide variety of sports equipment",
+            "email": "ecommerce.colombia@decathlon.com "
         },
 
         {
-            "name": "Smartfix",
-            "address": "C. Camejo, Barinas 5201, Barinas",
-            "phone": "+584145125436",
-            "url": "https://smartfix.com/",
-            "image": "images/smartfix.jpg",
+            "name": "Evacol",
+            "address": "Centro Comercial Viva Piso 3 Local 328",
+            "phone": "+57 310 2102738",
+            "url": "https://evacol.com/",
+            "image": "images/evacol.jpg",
             "membership": "Silver",
             "join": "10 months",
-            "description": "Cutting edge technology, great products, high tech",
-            "email": "smartfix@fix.com"
+            "description": "Wide variety of bags and shoes for the whole family",
+            "email": "asesorecommerce@evacol.com"
         },
 
         {
-            "name": "Traki c.a.",
-            "address": "Avenida, Barinas 5201, Barinas",
-            "phone": "+582735417092",
-            "url": "https://traki.com/",
-            "image": "images/traki.jpg",
+            "name": "Porthos",
+            "address": "Centro Comercial Viva Piso 3 Local 328",
+            "phone": "+(57)(605)3966030",
+            "url": "https://porthospub.com/",
+            "image": "images/porthos.jpg",
             "membership": "Golden",
             "join": "8 years",
-            "description": "Clothing for all the ages at a right price",
-            "email": "traki@traki.com"
+            "description": "Porthos is among the 10% of the best restaurants in the world",
+            "email": "info@subscorp.net"
         }
 
 
