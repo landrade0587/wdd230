@@ -102,6 +102,25 @@
         {
             "week": "Week 5",
             "links": [
+                {
+                    "url": "https://codepen.io/Jesus-Contreras/pen/OJajoKO",
+                    "title": "CSS Pseudo-elements"
+                },
+
+                {
+                    "url": "week05/new-ward-members.json",
+                    "title": "JSON"
+                },
+
+                {
+                    "url": "week05/prophets.html",
+                    "title": "Fetch API"
+                },
+
+                {
+                    "url": "week05/weather.html",
+                    "title": "Weather API"
+                }
          
             ]
         }
