@@ -254,8 +254,7 @@ footer p{
     display: none;
 }
 
-
-/*Page two (Discover) css */
+/*Page two css */
 
 #content{
     margin: 3rem;
@@ -658,7 +657,6 @@ form label.top input:required:valid{
 #forecast-weather h5{
     text-align: center;
 }
-
 
 /***********Banner*************/
 
