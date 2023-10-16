@@ -17,7 +17,9 @@ hamButton.addEventListener('click', () => {
 });
 
 const baseURL = 'https://landrade0587.github.io/wdd230/chamber/';
+
 const linksURL = 'https://landrade0587.github.io/wdd230/chamber/data/members.json';
+
 const ulList = document.querySelector('.grid');
 
 async function fetchLinks(){
