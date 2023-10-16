@@ -206,9 +206,10 @@ form label.checkbox{
     display: block;
     margin: 1rem auto;
 }
+
 #infoMemberShip section{
     text-align: justify;
-    margin: 1rem auto
+    margin: 1rem auto;
 }
 
 #infoMemberShip section h3{
