@@ -16,8 +16,8 @@ hamButton.addEventListener('click', () => {
 	hamButton.classList.toggle('open');
 });
 
-const baseURL = 'https://jesuscontreras26.github.io/wdd230/chamber/';
-const linksURL = 'https://jesuscontreras26.github.io/wdd230/chamber/data/members.json';
+const baseURL = 'https://landrade0857.github.io/wdd230/chamber/';
+const linksURL = 'https://landrade0857.github.io/wdd230/chamber/data/members.json';
 const ulList = document.querySelector('.grid');
 
 async function fetchLinks(){
