@@ -184,126 +184,125 @@
     .sites img:hover {
         box-shadow: 0 0 50px #333;
     }
-}
 
-/*****************FORM PAGE**********************/
+    /*****************FORM PAGE**********************/
 
-form{
-    max-width: 1600px;
-    width: 60%;
-}
+    form{
+        max-width: 1600px;
+        width: 60%;
+    }
 
-form label.checkbox{
-    padding: 0.2rem;
-}
+    form label.checkbox{
+        padding: 0.2rem;
+    }
 
-#memberships{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+    #memberships{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
-#infoMemberShip{
-    display: block;
-    margin: 1rem auto;
-}
+    #infoMemberShip{
+        display: block;
+        margin: 1rem auto;
+    }
+    #infoMemberShip section{
+        text-align: justify;
+        margin: 1rem auto
+    }
 
-#infoMemberShip section{
-    text-align: justify;
-    margin: 1rem auto;
-}
+    #infoMemberShip section h3{
+        margin-bottom: 0.2rem;
+    }
 
-#infoMemberShip section h3{
-    margin-bottom: 0.2rem;
-}
+    #infoMemberShip section ul, section p{
+        color: black;
+    }
+    #infoMemberShip section ul{
+        list-style: disc;
+    }
 
-#infoMemberShip section ul, section p{
-    color: black;
-}
-#infoMemberShip section ul{
-    list-style: disc;
-}
+    #infoMemberShip section ul li, section p{
+        margin: 0.5rem auto;
+    }
 
-#infoMemberShip section ul li, section p{
-    margin: 0.5rem auto;
-}
+    #infoMemberShip section p{
+        line-height: 1.3rem;
+        width: 70%;
+        margin: 1rem 0;
+    }
 
-#infoMemberShip section p{
-    line-height: 1.3rem;
-    width: 70%;
-    margin: 1rem 0;
-}
+    form label.checkbox{
+        margin: 6rem auto;
+        font-size: 1rem;
+    }
 
-form label.checkbox{
-    margin: 6rem auto;
-    font-size: 1rem;
-}
+    #memberships div #memberTitle{
+        font-size: 1.1rem;
+    }
 
-#memberships div #memberTitle{
-    font-size: 1.1rem;
-}
+    .top textarea{
+        width: 100%;
+        padding: 1rem;
+        height: 7rem;
+    } 
 
-.top textarea{
-    width: 100%;
-    padding: 1rem;
-    height: 7rem;
-} 
-
-/*************ThankYouMessagePage*************/
-#thanksMess{
-    margin-top: 8rem;
-}
+    /*************ThankYouMessagePage*************/
+    #thanksMess{
+        margin-top: 8rem;
+    }
 
 
 
-#thanksMess h1{
-    font-size: 3rem;
-    margin-bottom: 3rem;
-}
+    #thanksMess h1{
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
 
-#thanksMess p{
-    font-size: 1.3rem;
-    margin-bottom: 15%;
-}
+    #thanksMess p{
+        font-size: 1.3rem;
+        margin-bottom: 15%;
+    }
 
-/******************DirectoryPage**********************/
+    /******************DirectoryPage**********************/
 
-.grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    margin-bottom: 1rem;
-}
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        margin-bottom: 1rem;
+    }
 
 
-.list section{
-    display: grid;
-    grid-template-columns: 1fr 1fr 0.5fr 1fr 1fr 1fr ;
-    padding: 3rem;
-    font-size: 1.2rem;
-    justify-content: center;
+    .list section{
+        display: grid;
+        grid-template-columns: 1fr 1fr 0.5fr 1fr 1fr 1fr ;
+        padding: 3rem;
+        font-size: 1.2rem;
+        justify-content: center;
+        
+    }
+
+    .list section:nth-child(even) {
+        background-color: #c5c8ce;
+
+    }
     
-}
 
-.list section:nth-child(even) {
-    background-color: #c5c8ce;
+    .list section:nth-child(odd) p{
+        color: #fff;
+    }
 
-}
+    .list section a{
+        padding-right: 1rem;
+        padding-left: 3rem;
+    }
+    
+    /****************Banner*****************/
 
+    .banner-content{
+        font-size: 1.2rem;
+    }
 
-.list section:nth-child(odd) p{
-    color: #fff;
-}
-
-.list section a{
-    padding-right: 1rem;
-    padding-left: 3rem;
-}
-
- /****************Banner*****************/
-
- .banner-content{
-    font-size: 1.2rem;
-}
-
-.banner-button{
-    margin-left: 2rem;   
+    .banner-button{
+        margin-left: 2rem;   
+    }
 }
