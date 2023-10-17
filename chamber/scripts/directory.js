@@ -3,7 +3,7 @@ dayName = todaysDate.getDate();
 monthName = todaysDate.getMonth() + 1;
 year = todaysDate.getFullYear();
 time = todaysDate.toLocaleTimeString('it-IT');
-document.querySelector('#year').textContent = `${year} Barranquilla Chamber`;
+document.querySelector('#year').textContent = `${year} Barinas Chamber`;
 document.querySelector('#lastModified').textContent = `Last Modification: ${dayName}/${monthName}/${year} ${time}`;
 
 
@@ -16,9 +16,8 @@ hamButton.addEventListener('click', () => {
 	hamButton.classList.toggle('open');
 });
 
-const baseURL = 'https://landrade0587.github.io/wdd230/chamber/';
-const linksURL = 'https://landrade0587.github.io/wdd230/chamber/data/members.json';
-
+const baseURL = 'https://jesuscontreras26.github.io/wdd230/chamber/';
+const linksURL = 'https://jesuscontreras26.github.io/wdd230/chamber/data/members.json';
 const ulList = document.querySelector('.grid');
 
 async function fetchLinks(){
